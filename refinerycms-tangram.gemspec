@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "refinerycms-tangram"
   gem.require_paths = ["lib"]
   gem.version       = Refinery::Tangram::VERSION
+
+  gem.add_runtime_dependency 'tangram'
 end

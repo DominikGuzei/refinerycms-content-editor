@@ -1,0 +1,49 @@
+#content {
+  a {
+    border: none;
+  }
+
+  .is-tangram-headline {
+
+    h1, h2, h3, h4, h5, h6 {
+      font-weight: bold;
+      text-align: left;
+      color: black;
+      border: none;
+      margin: 0;
+      margin: 1em 0;
+      padding: 0;
+    }
+
+    font-weight: bold;
+    width: 95%;
+
+    &.is-editing {
+      display: none;
+    }
+
+    h1, &.h1 {
+      font-size: 2em;
+    }
+
+    h2, &.h2 {
+      font-size: 1.7em;
+    }
+
+    h3, &.h3 {
+      font-size: 1.5em;
+    }
+
+    h4, &.h4 {
+      font-size: 1.3em;
+    }
+
+    h5, &.h5 {
+      font-size: 1.2em;
+    }
+
+    h6, &.h6 {
+      font-size: 1.1em;
+    }
+  }
+}
